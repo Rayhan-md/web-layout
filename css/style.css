@@ -1,0 +1,197 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+.nav{
+	widows: 960px;
+	height: auto;
+	background: black;
+}
+.nav ul li{
+	list-style: none;
+    display: inline-block;
+}
+.nav ul li a{
+	font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: block;
+    font-weight: bold;
+    display: block;
+    padding: 20px 35px;
+    text-decoration: none;
+
+}
+.nav ul li a:hover{
+	color: #0b0bfd;
+	background: #e80d0d;
+}
+.banner-cover{
+	height: 50vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.banner-text{
+	padding: 100px;
+	text-align: center;
+}
+.banner-text button{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    border: 0;
+    background: #000;
+    color: #fff;
+    margin: 0px 8px;
+}
+
+.titel h1{
+font-size: 25px;
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 30px;
+
+	height: 40px auto;
+}
+
+
+.about-logo img{
+	width: 320px;
+	height: auto;
+	margin: 0px 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 8px 10px 0px #000;
+}
+.about-text{
+	width: 520px;
+	height: auto;
+	padding: 0px 20px;
+}
+.about-text p{
+	font-size: 20px;
+}
+.row{
+	overflow: auto;
+}
+.col{
+	float: left;
+}
+.about-section{
+	background: #DCE7E5;
+	padding: 40px 0px;
+	margin-top: 20px;
+}
+.service-section{
+	width: 233px;
+	height: auto;
+	border: 1px solid #fff;
+	background: pink;
+	text-align: center;
+	float: left;
+}
+.development-section{
+	width: 233px;
+	height: auto;
+	border: 1px solid #fff;
+	background: pink;
+	text-align: center;
+	float: left;
+}
+.apps-section{
+	width: 233px;
+	height: auto;
+	border: 1px solid #fff;
+	background: pink;
+	text-align: center;
+	float: left;
+}
+.theme-section{
+	width: 233px;
+	height: auto;
+	border: 1px solid #fff;
+	background: pink;
+	text-align: center;
+	float: left;
+}
+
+.serv-icon{
+	font-size: 40px;
+	margin-top: 10px;
+margin-bottom: 10px;
+
+}
+h1{
+	font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 33px 17px 22px 7px;
+    padding: 16px;
+
+}
+
+.album img{
+	width: 20%;
+	height: 250px;
+}
+/* contact section*/
+.contact{
+	background: #fff;
+	padding: 15px 15px 15px 80px;
+	box-shadow: 0px 0px 10px #ccc;
+	width: 200px;
+	position: relative;
+	display: inline-block;
+	margin: 0px 8px;
+}
+.cont-icon i{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	float: left;
+	top: 8px;
+	left: 15px;
+	background: #222;
+	text-align: center;
+	color: #fff;
+	line-height: 50px;
+	font-stretch: 30px;
+
+}
+.text p{
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0px;
+	padding: 0px; 
+}
+.contact-section{
+	background: #ad71718c;
+	padding: 40px 0px;
+	margin-top: 20px;
+
+}
+/* footer section*/
+footer{
+	width: 920px;
+	margin: 0 auto;
+	height: auto;
+	background: #000;
+	color: #fff;
+	padding: 20px;
+}
+.footer-icon{
+	float: right;
+}
+.footer-text{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0px 20px;
+}
